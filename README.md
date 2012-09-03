@@ -5,7 +5,7 @@ is more like Express or Boggart.
 ##Install
 With npm:
 ```javascript
-npm install //To be added
+npm install git://github.com/PyScripter255/Latte.git
 ```
 ##Usage
 Very simple
