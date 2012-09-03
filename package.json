@@ -1,0 +1,7 @@
+{
+  "name": "latte",
+  "version": "0.2.0",
+  "author": "PyScripter255 <https://github.com/PyScripter255>",
+  "description": "Yet Another (Micro) Node.js framework",
+  "main": "latte"
+}
