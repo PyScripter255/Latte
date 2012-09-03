@@ -1,7 +1,7 @@
 #Latte: Node.js Micro Framework
 ##What is Latte?
 Latte is a Node.js micro-framework. It's a lot like my other node.js micro framework [frozen yogurt](https://github.com/PyScripter255/frozen-yogurt)
-but it is more like Express or Boggart.
+,but it is more like Express or Boggart.
 ##Install
 With npm:
 ```javascript
