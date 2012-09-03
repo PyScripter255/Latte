@@ -1,0 +1,51 @@
+info it worked if it ends with ok
+verbose cli [ '/var/lib/stickshift/a2b33016ce0346b79bda4925a214815e/app-root/data//bin/node-openshift',
+verbose cli   '/usr/bin/npm',
+verbose cli   'install',
+verbose cli   'git://github.com/PyScripter255/Latte.git' ]
+info using npm@1.1.24
+info using node@v0.6.19
+verbose /var/lib/stickshift/a2b33016ce0346b79bda4925a214815e/app-root/data//bin/node-openshift node symlink
+verbose config file /var/lib/stickshift/a2b33016ce0346b79bda4925a214815e/app-root/data/.npmrc
+verbose config file /var/lib/stickshift/a2b33016ce0346b79bda4925a214815e/app-root/data/etc/npmrc
+verbose config file /usr/lib/node_modules/npm/npmrc
+verbose cache add [ 'git://github.com/PyScripter255/Latte.git', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'git://github.com/PyScripter255/Latte.git',
+silly cache add: name, spec, args   [ 'git://github.com/PyScripter255/Latte.git', null ] ]
+verbose parsed url { protocol: 'git:',
+verbose parsed url   slashes: true,
+verbose parsed url   host: 'github.com',
+verbose parsed url   hostname: 'github.com',
+verbose parsed url   href: 'git://github.com/PyScripter255/Latte.git',
+verbose parsed url   pathname: '/PyScripter255/Latte.git',
+verbose parsed url   path: '/PyScripter255/Latte.git' }
+verbose addRemoteGit [ 'git://github.com/PyScripter255/Latte.git', 'master' ]
+silly exec git "clone" "git://github.com/PyScripter255/Latte.git" "/tmp/npm-1346703915139/1346703915139-0.6862889083568007"
+silly spawning [ 'git',
+silly spawning   [ 'clone',
+silly spawning     'git://github.com/PyScripter255/Latte.git',
+silly spawning     '/tmp/npm-1346703915139/1346703915139-0.6862889083568007' ],
+silly spawning   null ]
+verbose git clone git://github.com/PyScripter255/Latte.git Initialized empty Git repository in /tmp/npm-1346703915139/1346703915139-0.6862889083568007/.git/
+silly exec git "checkout" "master"
+silly spawning [ 'git',
+silly spawning   [ 'checkout', 'master' ],
+silly spawning   '/tmp/npm-1346703915139/1346703915139-0.6862889083568007' ]
+verbose git checkout master Already on 'master'
+ERR! Error: ENOENT, open '/tmp/npm-1346703915139/1346703915139-0.6862889083568007/package.json'
+ERR! You may report this log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Linux 2.6.32-279.5.2.el6.x86_64
+ERR! command "/var/lib/stickshift/a2b33016ce0346b79bda4925a214815e/app-root/data//bin/node-openshift" "/usr/bin/npm" "install" "git://github.com/PyScripter255/Latte.git"
+ERR! cwd /var/lib/stickshift/a2b33016ce0346b79bda4925a214815e/app-root/data/270193
+ERR! node -v v0.6.19
+ERR! npm -v 1.1.24
+ERR! path /tmp/npm-1346703915139/1346703915139-0.6862889083568007/package.json
+ERR! code ENOENT
+ERR! message ENOENT, open '/tmp/npm-1346703915139/1346703915139-0.6862889083568007/package.json'
+ERR! errno {}
+verbose exit [ 1, true ]

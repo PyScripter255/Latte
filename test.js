@@ -1,4 +1,4 @@
-var latte = require('./latte');
+var latte = require('latte');
 
 var app = latte.app();
 
