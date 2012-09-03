@@ -8,7 +8,7 @@ With npm:
 npm install git://github.com/PyScripter255/Latte.git
 ```
 ##Usage
-Very simple
+Very simple\n
 1. Require Latte:
 
 ```javascript
