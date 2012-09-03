@@ -25,7 +25,7 @@ var app = latte.app()
 app.route(url, function(req, res){
 ...
 })
-
+```
 4. Start the server:
 
 ```javascript
